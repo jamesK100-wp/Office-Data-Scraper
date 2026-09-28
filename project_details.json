@@ -1,0 +1,2141 @@
+{
+  "ChIJBQq9XrDJ5zsRbjWpt2gtQ0E": {
+    "name": "Rustomjee Erika",
+    "fields": {
+      "Brand Name": "Rustomjee",
+      "Builder Name": "Rustomjee Builders",
+      "Status": "Ready to Move (portal-reported)",
+      "Configurations Type": "Apartment",
+      "Number of Towers": 1,
+      "Number of Units": 114,
+      "Total Project Area (Acres)": 0.47,
+      "Launch Date": "Feb 2022",
+      "Last Updated Date": "2026-04-06",
+      "RERA (Registration No)": "P51800033014",
+      "Project Overview": "2 BHK residential development in Bandra East.",
+      "Highlights": "Bandra railway station approximately 1 km away.",
+      "Amenities": "Yoga deck; herb garden; rainwater harvesting; video door security"
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/272120-rustomjee-erika-by-rustomjee-builders-in-bandra-east",
+    "checked": "2026-09-28",
+    "notes": "Search did not establish reliable project-level details for this exact listing. Magicbricks also reports 114 units and one tower; its 1-acre area differs from Housing 0.47 acres. Area requires verification. Source: https://www.magicbricks.com/rustomjee-erika-bandra-east-mumbai-pdpid-4d4235333236393433",
+    "units": [
+      [
+        "2 BHK",
+        533.78,
+        24000000,
+        "Not specified",
+        "Advertised floor-plan starting price; availability unconfirmed"
+      ]
+    ]
+  },
+  "ChIJ07gBbiDJ5zsRAEPMq9W5JxY": {
+    "name": "Rustomjee Seasons",
+    "fields": {
+      "Brand Name": "Rustomjee",
+      "Builder Name": "Rustomjee Builders",
+      "Status": "Ready to Move (portal-reported)",
+      "Configurations Type": "Apartment",
+      "Launch Date": "Jan 2013",
+      "Last Updated Date": "2026-04-06",
+      "RERA (Registration No)": "P51800021028; P51800001433; P51800000605; P51800000309",
+      "Project Overview": "Multi-phase residential development offering 3 and 4 BHK homes.",
+      "Amenities": "Basketball court; tennis court; swimming pool; garden; children's play area"
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/33865-rustomjee-seasons-by-rustomjee-builders-in-bandra-east",
+    "checked": "2026-09-28",
+    "notes": "Portal overview and phase counts differ; total towers, units and area withheld. Magicbricks reports launch Feb 2021 versus Housing Jan 2013; its one-tower summary conflicts with six towers in its body. Phase scope unresolved. Source: https://www.magicbricks.com/rustomjee-seasons-bandra-east-mumbai-pdpid-4d4235303237323636",
+    "units": [
+      [
+        "3 BHK",
+        null,
+        null,
+        "Not specified",
+        "Project configuration; price on request"
+      ],
+      [
+        "4 BHK",
+        null,
+        null,
+        "Not specified",
+        "Project configuration; price on request"
+      ]
+    ]
+  },
+  "ChIJ4_VJNw7J5zsRtwehbSERgxc": {
+    "name": "K Raheja Realty P. Ltd.",
+    "fields": {},
+    "review": "Likely non-project listing",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Classification based on the original listing name and website; retained for review, not treated as a housing project.",
+    "units": []
+  },
+  "ChIJf7QslgzJ5zsRPwdK-3um2lY": {
+    "name": "Rustomjee Paramount",
+    "fields": {
+      "Brand Name": "Rustomjee",
+      "Builder Name": "Rustomjee Builders",
+      "Status": "Ready to Move (portal-reported)",
+      "Configurations Type": "Apartment",
+      "Launch Date": "Jun 2014",
+      "Last Updated Date": "2026-04-27",
+      "RERA (Registration No)": "P51800020843; P51800000619; P51800000481; P51800000862",
+      "Project Overview": "Multi-wing development with 2, 3, 4 and 5 BHK homes.",
+      "Highlights": "Khar West; sea-facing residences advertised."
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/33171-rustomjee-paramount-by-rustomjee-builders-in-santacruz-west",
+    "checked": "2026-09-28",
+    "notes": "Portal gives inconsistent phase/whole-project area and counts; totals withheld. Magicbricks reports 178 units, 2 acres and five towers; its body says six towers. Launch Jun 2021 differs from Housing Jun 2014. Totals remain withheld. Source: https://www.magicbricks.com/rustomjee-paramount-khar-west-mumbai-pdpid-4d4235303237323439",
+    "units": [
+      [
+        "2 BHK",
+        758.86,
+        null,
+        "Carpet",
+        "Price on request"
+      ],
+      [
+        "3 BHK",
+        null,
+        null,
+        "Not specified",
+        "Advertised range Rs 6.29–8.59 crore; no exact area-price pairing"
+      ],
+      [
+        "4 BHK",
+        null,
+        null,
+        "Not specified",
+        "Advertised range Rs 9.31–13.16 crore"
+      ],
+      [
+        "5 BHK",
+        null,
+        null,
+        "Not specified",
+        "Advertised range Rs 15.07–17.60 crore"
+      ]
+    ]
+  },
+  "ChIJnRAdRz3J5zsRJuykfVwd--s": {
+    "name": "Lake View CHS",
+    "fields": {},
+    "review": "Identity/details unresolved",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Search did not establish reliable project-level details for this exact listing.",
+    "units": []
+  },
+  "ChIJvVRoNovJ5zsRjmjiOS1J4gI": {
+    "name": "Queen of Spaces - A Project by Space Group of Companies",
+    "fields": {
+      "Brand Name": "Space Group",
+      "Builder Name": "Space Group Of Companies",
+      "Configurations Type": "Apartment; Studio",
+      "Status": "Conflicting sources—verify",
+      "Number of Towers": 1,
+      "Total Project Area (Acres)": 0.15,
+      "Launch Date": "Jun 2023",
+      "Last Updated Date": "2026-04-06",
+      "RERA (Registration No)": "P51800051476",
+      "Project Overview": "Bandra West mixed development with studios and 2/3 BHK homes.",
+      "Amenities": "Landscaped areas; rooftop terraces"
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/302183-queen-of-spaces-by-space-group-of-companies-in-bandra-west",
+    "checked": "2026-09-28",
+    "notes": "Portal says ready; registry-derived Malki record has revised completion 30 Jun 2027. 32 filed units include non-residential space, so residential unit count withheld. https://malki.in/project/queen-of-spaces-p51800051476/",
+    "units": [
+      [
+        "Studio",
+        null,
+        null,
+        "Not specified",
+        "Project configuration"
+      ],
+      [
+        "2 BHK",
+        null,
+        null,
+        "Not specified",
+        "Project configuration"
+      ],
+      [
+        "3 BHK",
+        null,
+        null,
+        "Not specified",
+        "Project configuration"
+      ]
+    ]
+  },
+  "ChIJY-RPjqzJ5zsRLrkQPCwyHTo": {
+    "name": "Shapoorji Pallonji BKC 28",
+    "fields": {
+      "Brand Name": "Shapoorji Pallonji",
+      "Builder Name": "Shapoorji Pallonji Real Estate",
+      "Configurations Type": "Apartment",
+      "Number of Towers": 1,
+      "Project Overview": "2 BHK tower near BKC, advertised with up to 22 floors.",
+      "Amenities": "Rooftop gym; rooftop lounge; high-speed lifts; puzzle parking",
+      "Possession Date": "Dec 2024 (advertised)"
+    },
+    "review": "Source found; partial details",
+    "source": "https://shapoorjirealestate.com/residential/bkc-28/",
+    "checked": "2026-09-28",
+    "notes": "Historical advertised date is not proof of handover. Source advertises 59.36–66.15 sq m.",
+    "units": [
+      [
+        "2 BHK",
+        null,
+        22300000,
+        "Not specified",
+        "Advertised starting price; exact area-price pairing unavailable"
+      ]
+    ]
+  },
+  "ChIJh5sfGkm25zsR0rFSoRCjh2c": {
+    "name": "Ekta World",
+    "fields": {},
+    "review": "Likely non-project listing",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Classification based on the original listing name and website; retained for review, not treated as a housing project.",
+    "units": []
+  },
+  "ChIJj8NlL4XJ5zsR4sBF0hrKjTQ": {
+    "name": "Resham - A Project by Wadhwa Constructions",
+    "fields": {
+      "Brand Name": "House of Wadhwa",
+      "Builder Name": "House of Wadhwa",
+      "Configurations Type": "Apartment; Duplex Penthouse",
+      "Status": "Completed (developer-reported)",
+      "Project Overview": "Bandra West residential development with four-bedroom homes and a duplex penthouse."
+    },
+    "review": "Source found; partial details",
+    "source": "https://houseofwadhwa.com/completed-projects/",
+    "checked": "2026-09-28",
+    "notes": "Developer reports approximately 40,000 sq ft built-up area; not converted to land acres.",
+    "units": [
+      [
+        "4 BHK",
+        null,
+        null,
+        "Not specified",
+        "Developer-listed configuration"
+      ],
+      [
+        "Duplex Penthouse",
+        null,
+        null,
+        "Not specified",
+        "Bedroom count and price unavailable"
+      ]
+    ]
+  },
+  "ChIJOwOxBiHJ5zsRt7apGEWfimY": {
+    "name": "TEN BKC by Adani Realty",
+    "fields": {
+      "Brand Name": "Adani Realty",
+      "Builder Name": "Adani Realty",
+      "Configurations Type": "Apartment",
+      "Status": "Under construction (developer page; may be stale)",
+      "RERA (Registration No)": "P51800004889",
+      "Total Project Area (Acres)": 4.98,
+      "Possession Date": "Jun 2024 (advertised)",
+      "Project Overview": "Bandra East residential development offering 3, 4 and 5 BHK homes.",
+      "Highlights": "Western Express Highway 0.5 km; Bandra station 1.2 km.",
+      "Amenities": "Swimming pool; clubhouse; squash; gym; gardens; children's play area; salon and spa"
+    },
+    "review": "Source found; partial details",
+    "source": "https://www.adanirealty.com/residential-projects/mumbai/ten-bkc",
+    "checked": "2026-09-28",
+    "notes": "Developer page still says under construction with a past possession date; confirm current handover. Rs 6.99 crore is project-level starting price, not assigned to a configuration.",
+    "units": [
+      [
+        "3 BHK",
+        null,
+        null,
+        "RERA carpet",
+        "Combined size range across configurations: 976.51–3688.50 sq ft"
+      ],
+      [
+        "4 BHK",
+        null,
+        null,
+        "RERA carpet",
+        "Exact configuration size and price unavailable"
+      ],
+      [
+        "5 BHK",
+        null,
+        null,
+        "RERA carpet",
+        "Exact configuration size and price unavailable"
+      ]
+    ]
+  },
+  "ChIJ6fnyB7rJ5zsRrGnrEfyLit4": {
+    "name": "The Designate, Mumbai",
+    "fields": {
+      "Brand Name": "Shapoorji Pallonji",
+      "Builder Name": "Ariisto Realtors (portal attribution)",
+      "Configurations Type": "Apartment",
+      "Number of Towers": 1,
+      "Number of Units": 30,
+      "Total Project Area (Acres)": 0.29,
+      "Launch Date": "Dec 2015",
+      "Possession Date": "Dec 2022 (advertised)",
+      "Last Updated Date": "2026-04-06",
+      "RERA (Registration No)": "P51800001443",
+      "Project Overview": "The Designate offers 3 BHK apartments near SV Road and Chapel Road."
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/43982-shapoorji-pallonji-the-designate-by-ariisto-realtors-in-santacruz-west",
+    "checked": "2026-09-28",
+    "notes": "Marketing brand and portal builder attribution differ; promoter needs registry confirmation. Magicbricks reports 33 units, 1 acre, Nov 2018 launch and Dec 2020 possession, differing from Housing. It attributes the project to Shapoorji Pallonji and reports ready to move. Existing values require verification. Source: https://www.magicbricks.com/the-designate-santacruz-west-mumbai-pdpid-4d4235313336313039",
+    "units": [
+      [
+        "3 BHK",
+        null,
+        null,
+        "Not specified",
+        "1156–1229 sq ft; advertised range Rs 6.35–6.75 crore"
+      ]
+    ]
+  },
+  "ChIJid9SnObJ5zsRElKReEsvCwM": {
+    "name": "Paradigm Realty",
+    "fields": {},
+    "review": "Likely non-project listing",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Classification based on the original listing name and website; retained for review, not treated as a housing project.",
+    "units": []
+  },
+  "ChIJK4g9HdPJ5zsRaE3PRuz4MOA": {
+    "name": "Supreme Evana",
+    "fields": {
+      "Brand Name": "Supreme Universal",
+      "Builder Name": "Supreme Universal",
+      "Configurations Type": "Apartment",
+      "Number of Towers": 1,
+      "Number of Units": 14,
+      "Total Project Area (Acres)": 0.23,
+      "Launch Date": "Apr 2022",
+      "Possession Date": "Jun 2024 (advertised)",
+      "Project Overview": "Bandra West development offering 2 and 3 BHK apartments.",
+      "Amenities": "Gym; party hall; landscaped grounds; sewage treatment; covered parking"
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/274695-supreme-evana-by-supreme-universal-in-bandra-west",
+    "checked": "2026-09-28",
+    "notes": "RERA conflicts: portal P51800033931 versus developer brochure P51900026166 (https://cdn.supremeuniversal.com/media/qtrcgk_Evana-Brochure.pdf). Registration withheld pending identity/phase check. Past target date does not confirm handover. Magicbricks corroborates 14 units and one tower and reports RERA P51800033931. Header says ready to move but an individual listing says under construction. Earlier registration conflict remains unresolved. Source: https://www.magicbricks.com/supreme-evana-bandra-west-mumbai-pdpid-4d4235333237383035",
+    "units": [
+      [
+        "2 BHK",
+        null,
+        null,
+        "Not specified",
+        "Combined project size range 749–1056 sq ft"
+      ],
+      [
+        "3 BHK",
+        null,
+        null,
+        "Not specified",
+        "Exact price unavailable"
+      ]
+    ]
+  },
+  "ChIJB8osoxHJ5zsRccXU5fftbqo": {
+    "name": "Hari Bhavan",
+    "fields": {
+      "Project Overview": "Residential project on Pali Road, Khar West."
+    },
+    "review": "Source found; partial details",
+    "source": "https://www.propertycrow.com/mumbai/propertyview_hari-bhavan-khar-west_1024.html",
+    "checked": "2026-09-28",
+    "notes": "Project identity matched; detailed specifications not reliably established.",
+    "units": []
+  },
+  "ChIJ7eFdItbJ5zsRhKGS4Pq3BTo": {
+    "name": "Mayfair Housing",
+    "fields": {},
+    "review": "Likely non-project listing",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Classification based on the original listing name and website; retained for review, not treated as a housing project.",
+    "units": []
+  },
+  "ChIJ9ZS0YNa25zsRfDopvpwEuFI": {
+    "name": "Housiey",
+    "fields": {},
+    "review": "Likely non-project listing",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Classification based on the original listing name and website; retained for review, not treated as a housing project.",
+    "units": []
+  },
+  "ChIJHWR3f27J5zsRoQn0w46zISU": {
+    "name": "Mass Group Construction House",
+    "fields": {},
+    "review": "Likely non-project listing",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Classification based on the original listing name and website; retained for review, not treated as a housing project.",
+    "units": []
+  },
+  "ChIJ56N0lUPO5zsR9s7Gs8UAfmY": {
+    "name": "Monte South",
+    "fields": {
+      "Brand Name": "Monte South",
+      "Builder Name": "Marathon Realty and Adani Group",
+      "Configurations Type": "Apartment",
+      "Number of Towers": 4,
+      "Number of Units": 1080,
+      "Total Project Area (Acres)": 12.5,
+      "Launch Date": "Dec 2010",
+      "Last Updated Date": "2026-06-01",
+      "Project Overview": "Multi-phase Byculla development with 2, 2.5, 3 and 3.5 BHK homes.",
+      "Highlights": "Amazon-themed landscaping; design by Hafeez Contractor."
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/33883-monte-south-by-marathon-realty-in-byculla",
+    "checked": "2026-09-28",
+    "notes": "Mixed phase completion dates; portal headline Dec 2030 must not be applied to all towers. Project price range Rs 3.56–8.59 crore.",
+    "units": [
+      [
+        "2 BHK",
+        null,
+        null,
+        "Not specified",
+        "Project configuration"
+      ],
+      [
+        "2.5 BHK",
+        null,
+        null,
+        "Not specified",
+        "Project configuration"
+      ],
+      [
+        "3 BHK",
+        null,
+        null,
+        "Not specified",
+        "Project configuration"
+      ],
+      [
+        "3.5 BHK",
+        null,
+        null,
+        "Not specified",
+        "Project configuration"
+      ]
+    ]
+  },
+  "ChIJM05zdhHJ5zsRqglOVsu7O9w": {
+    "name": "Mahesh Developers Ltd",
+    "fields": {},
+    "review": "Likely non-project listing",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Classification based on the original listing name and website; retained for review, not treated as a housing project.",
+    "units": []
+  },
+  "ChIJHZnlj-HJ5zsRH03lnDKHMN4": {
+    "name": "House Hunt",
+    "fields": {},
+    "review": "Likely non-project listing",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Classification based on the original listing name and website; retained for review, not treated as a housing project.",
+    "units": []
+  },
+  "ChIJeUO8al7O5zsRMk-NTmULwK0": {
+    "name": "Piramal Mahalaxmi",
+    "fields": {
+      "Brand Name": "Piramal",
+      "Builder Name": "Piramal Realty",
+      "Configurations Type": "Apartment; Penthouse",
+      "Project Overview": "Mahalaxmi development with apartment and penthouse configurations.",
+      "Amenities": "Swimming pool; gym; spa; cricket pitch; reading lounge; children's pool"
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/331987-piramal-mahalaxmi-by-piramal-realty-in-worli",
+    "checked": "2026-09-28",
+    "notes": "South, Central and North towers have different registrations and dates. Whole-project possession and totals withheld.",
+    "units": [
+      [
+        "2 BHK",
+        null,
+        null,
+        "Not specified",
+        "Advertised range Rs 5.39–6.31 crore"
+      ],
+      [
+        "3 BHK",
+        null,
+        null,
+        "Not specified",
+        "Advertised range Rs 6.88–10.57 crore"
+      ],
+      [
+        "4 BHK",
+        null,
+        135800000,
+        "Not specified",
+        "Advertised configuration price; area not paired"
+      ],
+      [
+        "4 BHK Penthouse",
+        null,
+        524600000,
+        "Not specified",
+        "Advertised configuration price"
+      ],
+      [
+        "4.5 BHK",
+        null,
+        183900000,
+        "Not specified",
+        "Advertised configuration price"
+      ]
+    ]
+  },
+  "ChIJS4gFKRHJ5zsRClGAjp65pNg": {
+    "name": "LALANI GROUP",
+    "fields": {},
+    "review": "Likely non-project listing",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Classification based on the original listing name and website; retained for review, not treated as a housing project.",
+    "units": []
+  },
+  "ChIJCxbL5dfO5zsRiZHhtQmUdvo": {
+    "name": "Happy Home Projects (Corporate Office)",
+    "fields": {},
+    "review": "Likely non-project listing",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Classification based on the original listing name and website; retained for review, not treated as a housing project.",
+    "units": []
+  },
+  "ChIJeQ-P0A_J5zsRPRyM3igdaF8": {
+    "name": "Pride Panorama | 2 BHK, 3 BHK Flats For Sale | New Residential Projects in Andheri East",
+    "fields": {
+      "Brand Name": "Pride Panorama",
+      "Builder Name": "Landcare Realty LLP",
+      "Configurations Type": "Apartment",
+      "Status": "Partially under construction (portal-reported)",
+      "Launch Date": "Apr 2022",
+      "Last Updated Date": "2026-04-06",
+      "Project Overview": "Multi-phase Saki Naka development with 1, 2 and 3 BHK homes.",
+      "Amenities": "Gym; swimming pool; clubhouse; jogging track; rainwater harvesting"
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/288285-landcare-panorama-by-landcare-realty-llp-in-saki-naka",
+    "checked": "2026-09-28",
+    "notes": "Portal phase dates and totals differ. Do not use as whole-project handover or inventory.",
+    "units": [
+      [
+        "1 BHK",
+        null,
+        null,
+        "Not specified",
+        "Project configuration"
+      ],
+      [
+        "2 BHK",
+        null,
+        null,
+        "Not specified",
+        "Project configuration"
+      ],
+      [
+        "3 BHK",
+        null,
+        null,
+        "Not specified",
+        "Project configuration"
+      ]
+    ]
+  },
+  "ChIJ-RdR9THJ5zsR_XdDWDy-T-U": {
+    "name": "The Presidential by Webtech Realty",
+    "fields": {
+      "Brand Name": "Webtech",
+      "Builder Name": "Webtech Realty",
+      "Project Overview": "The Presidential is listed as a Webtech project in Bandra West."
+    },
+    "review": "Source found; partial details",
+    "source": "https://webtechrealty.com/",
+    "checked": "2026-09-28",
+    "notes": "Developer identity confirmed; detailed specifications not established.",
+    "units": []
+  },
+  "ChIJ8TqWeQ7J5zsRbvGwNUQzGBI": {
+    "name": "KRIPA Group",
+    "fields": {},
+    "review": "Likely non-project listing",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Classification based on the original listing name and website; retained for review, not treated as a housing project.",
+    "units": []
+  },
+  "ChIJg6P3sTTJ5zsRJWepNCZnk_o": {
+    "name": "Kolte Patil Developers Ltd, Mumbai",
+    "fields": {},
+    "review": "Likely non-project listing",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Classification based on the original listing name and website; retained for review, not treated as a housing project.",
+    "units": []
+  },
+  "ChIJp5pwBTLI5zsRA-JLk3GarJI": {
+    "name": "ATUL PROJECTS.",
+    "fields": {},
+    "review": "Likely non-project listing",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Classification based on the original listing name and website; retained for review, not treated as a housing project.",
+    "units": []
+  },
+  "ChIJe520-zTJ5zsRha3cWtAvAto": {
+    "name": "Runwal Rare",
+    "fields": {
+      "Brand Name": "Runwal",
+      "Builder Name": "Runwal Realty",
+      "Configurations Type": "Apartment",
+      "RERA (Registration No)": "P51800034594",
+      "Project Overview": "Andheri West development offering 2 and 3 BHK deck residences."
+    },
+    "review": "Source found; partial details",
+    "source": "https://runwalrealty.com/luxury-flats-in-mumbai/",
+    "checked": "2026-09-28",
+    "notes": "Search did not establish reliable project-level details for this exact listing.",
+    "units": [
+      [
+        "2 BHK",
+        859,
+        null,
+        "Carpet",
+        "Developer-listed area; price unavailable"
+      ],
+      [
+        "3 BHK",
+        null,
+        null,
+        "Carpet",
+        "Developer-listed range 1101–1216 sq ft; price unavailable"
+      ]
+    ]
+  },
+  "ChIJ-yFtFY3I5zsRGBxOco0SIDU": {
+    "name": "Grand Residency(RC HOUSE), RC Group",
+    "fields": {
+      "Brand Name": "RC Group",
+      "Builder Name": "Raja Ram Chavan Group Enterprise",
+      "Configurations Type": "Apartment",
+      "Status": "Ready to Move (portal-reported)",
+      "Number of Units": 56,
+      "Launch Date": "May 2012",
+      "Project Overview": "Kurla West residential development offering 2 BHK homes."
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/46061-rc-the-grand-residency-by-raja-ram-chavan-group-enterprise-in-kurla-west",
+    "checked": "2026-09-28",
+    "notes": "Search did not establish reliable project-level details for this exact listing.",
+    "units": [
+      [
+        "2 BHK",
+        1200,
+        null,
+        "Not specified",
+        "Portal-listed size; price not paired"
+      ]
+    ]
+  },
+  "ChIJK2RZqzjJ5zsR3_g9UBeoV6k": {
+    "name": "Chapel Avenue Cooperative Housing Society",
+    "fields": {
+      "Configurations Type": "Apartment",
+      "Number of Towers": 1,
+      "Number of Units": 28,
+      "Last Updated Date": "2026-09-13",
+      "Project Overview": "Residential society on Chapel Road, Ranwar, Bandra West."
+    },
+    "review": "Source found; partial details",
+    "source": "https://www.magicbricks.com/chapel-avenue-apartment-bandra-west-mumbai-pdpid-4d4235303435313936",
+    "checked": "2026-09-28",
+    "notes": "Matched by Chapel Road, Ranwar address. Counts are Magicbricks claims. Builder, RERA, dates and sale configuration prices not established.",
+    "units": []
+  },
+  "ChIJ4ynP0BDI5zsRxqEtWoPYKrM": {
+    "name": "Blossom Co-operative Housing Society",
+    "fields": {
+      "Project Overview": "Cooperative housing society on Military Road, Marol, Andheri East."
+    },
+    "review": "Source found; partial details",
+    "source": "https://malki.in/mumbai/bandra/blossom-3c1cf7/",
+    "checked": "2026-09-28",
+    "notes": "Matched as an existing society; project launch and builder not established.",
+    "units": []
+  },
+  "ChIJHQtP7nbB7i0R4cCFuLh-QT0": {
+    "name": "Projects in BKC",
+    "fields": {},
+    "review": "Identity/details unresolved",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Generic Projects in BKC listing; no unique project identity established.",
+    "units": []
+  },
+  "ChIJg3W9DzjJ5zsREacXBqg24sQ": {
+    "name": "Kolte Patil Alora, Santacruz",
+    "fields": {
+      "Brand Name": "Kolte-Patil",
+      "Builder Name": "Kolte-Patil Developers",
+      "Configurations Type": "Apartment",
+      "Number of Towers": 5,
+      "Number of Units": 211,
+      "Total Project Area (Acres)": 1.33,
+      "Launch Date": "Jan 2023",
+      "Possession Date": "May 2027 (scheduled)",
+      "Last Updated Date": "2026-04-06",
+      "RERA (Registration No)": "P51800049048",
+      "Project Overview": "2 and 3 BHK apartments in Kalina, Santacruz East.",
+      "Highlights": "Santacruz station approximately 2.5 km.",
+      "Amenities": "Gym; jogging track; amphitheatre; CCTV; rainwater harvesting"
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/293664-kolte-patil-alora-by-koltepatil-developers-in-santacruz-east",
+    "checked": "2026-09-28",
+    "notes": "Search did not establish reliable project-level details for this exact listing.",
+    "units": [
+      [
+        "2 BHK",
+        null,
+        null,
+        "Not specified",
+        "Combined size range 747–976 sq ft; project prices Rs 2.76–3.61 crore"
+      ],
+      [
+        "3 BHK",
+        null,
+        null,
+        "Not specified",
+        "Exact area-price pairing not established"
+      ]
+    ]
+  },
+  "ChIJKTtHQSPJ5zsRBvoNFbFcqik": {
+    "name": "The Nest - The Wadhwa Group",
+    "fields": {
+      "Brand Name": "Wadhwa",
+      "Builder Name": "The Wadhwa Group",
+      "Project Overview": "The Nest, near Bhavans College and DN Nagar, Andheri West."
+    },
+    "review": "Source found; partial details",
+    "source": "https://www.thewadhwagroup.com/residential/the-nest/",
+    "checked": "2026-09-28",
+    "notes": "Project identity confirmed on developer website; further configuration and handover evidence needed.",
+    "units": []
+  },
+  "ChIJyxXtXhDJ5zsRPpXeYS6i1OY": {
+    "name": "Samyakth Bliss",
+    "fields": {
+      "Brand Name": "Samyakth",
+      "Builder Name": "Samyakth Realties",
+      "Configurations Type": "Apartment",
+      "Project Overview": "Khar West development offering 2 and 3 BHK homes.",
+      "Amenities": "Pool; gym; spa; parking; jogging track"
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/369300-samyakth-bliss-by-samyakth-realties-in-khar-west",
+    "checked": "2026-09-28",
+    "notes": "Tower A/B scope and dates differ. Tower B portal has implausible 40-acre field; omitted. Verify phase before using RERA or possession. Magicbricks reports RERA P51800008134, 51 units, one tower and Dec 2026 possession. Its area is 1560 sq m in overview but incorrectly labelled 1560 acres in FAQ. Phase-specific totals not merged. Source: https://www.magicbricks.com/samyakth-bliss-khar-west-mumbai-pdpid-4d4235303932313537",
+    "units": [
+      [
+        "2 BHK",
+        687,
+        37700000,
+        "Carpet",
+        "Advertised floor-plan price; phase P51800008134"
+      ],
+      [
+        "3 BHK",
+        null,
+        49400000,
+        "Not specified",
+        "Advertised configuration price"
+      ]
+    ]
+  },
+  "ChIJ5-WmTvDH5zsRHiSSikgh5j0": {
+    "name": "Godrej RKS, RK Studios, Chembur",
+    "fields": {
+      "Brand Name": "Godrej",
+      "Builder Name": "Godrej Properties Ltd.",
+      "Configurations Type": "Apartment",
+      "Launch Date": "Jan 2020",
+      "Possession Date": "Jun 2024 (advertised)",
+      "Total Project Area (Acres)": 2,
+      "Project Overview": "Chembur residential project offering 2, 3 and 4 BHK apartments.",
+      "Amenities": "Gym; backup power; pool; children's pool; squash; library; spa"
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/230483-godrej-rks-by-godrej-properties-ltd-in-chembur",
+    "checked": "2026-09-28",
+    "notes": "Source description uses under construction with a past date; current status not confirmed.",
+    "units": [
+      [
+        "2 BHK",
+        null,
+        null,
+        "Not specified",
+        "Project configuration"
+      ],
+      [
+        "3 BHK",
+        null,
+        null,
+        "Not specified",
+        "Project configuration"
+      ],
+      [
+        "4 BHK",
+        null,
+        null,
+        "Not specified",
+        "Project configuration"
+      ]
+    ]
+  },
+  "ChIJk-lkTrnJ5zsRtMzqLrPvY0c": {
+    "name": "Esperanza Building",
+    "fields": {},
+    "review": "Identity/details unresolved",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Search found both commercial and residential Esperanza listings. No details merged until exact building identity is confirmed.",
+    "units": []
+  },
+  "ChIJmR9coA7J5zsRXUuimRMIF84": {
+    "name": "Vaswani Group",
+    "fields": {},
+    "review": "Likely non-project listing",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Classification based on the original listing name and website; retained for review, not treated as a housing project.",
+    "units": []
+  },
+  "ChIJua7CGxDJ5zsRUzg53_uXLMU": {
+    "name": "Jamnotri Apartments",
+    "fields": {},
+    "review": "Identity/details unresolved",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Search did not establish reliable project-level details for this exact listing.",
+    "units": []
+  },
+  "ChIJsY3PwyC25zsRlWzHcNuRWQ4": {
+    "name": "Acme Housing",
+    "fields": {},
+    "review": "Likely non-project listing",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Classification based on the original listing name and website; retained for review, not treated as a housing project.",
+    "units": []
+  },
+  "ChIJ97BNzwLG5zsRYDlbzMclrpA": {
+    "name": "HUBTOWN SEASONS",
+    "fields": {
+      "Brand Name": "Hubtown",
+      "Builder Name": "Hubtown Limited / Joynest Premises Private Ltd (I Wing)",
+      "Configurations Type": "Apartment",
+      "Project Overview": "Chembur multi-wing development. Available detailed source covers I Wing only."
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/51974-joynest-seasons-i-wing-by-joynest-premises-private-ltd-in-chembur",
+    "checked": "2026-09-28",
+    "notes": "I Wing: P51800002350, 85 units, one building, launch Jul 2013, target Dec 2025; not extrapolated to full project.",
+    "units": [
+      [
+        "2.5 BHK",
+        null,
+        null,
+        "Not specified",
+        "I Wing configuration"
+      ],
+      [
+        "3 BHK",
+        null,
+        null,
+        "Not specified",
+        "I Wing configuration"
+      ],
+      [
+        "4 BHK",
+        null,
+        null,
+        "Not specified",
+        "I Wing configuration"
+      ],
+      [
+        "5 BHK",
+        null,
+        null,
+        "Not specified",
+        "I Wing configuration"
+      ]
+    ]
+  },
+  "ChIJb3hPNTXI5zsRSuhBqk_mB9I": {
+    "name": "Sunteck Centre",
+    "fields": {},
+    "review": "Likely non-project listing",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Classification based on the original listing name and website; retained for review, not treated as a housing project.",
+    "units": []
+  },
+  "ChIJEy2eKAbJ5zsRMxQ7ELzBPcY": {
+    "name": "The Santacruz Sterling Apartment (New Sterling Apt)",
+    "fields": {},
+    "review": "Identity/details unresolved",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Search did not establish reliable project-level details for this exact listing.",
+    "units": []
+  },
+  "ChIJtSNd0RPJ5zsRyrLrkuQR_Gg": {
+    "name": "Sahib Realty",
+    "fields": {},
+    "review": "Likely non-project listing",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Classification based on the original listing name and website; retained for review, not treated as a housing project.",
+    "units": []
+  },
+  "ChIJ0dQpywbJ5zsRK42lumctZ5Q": {
+    "name": "Dalal Gruh & Infra. Projects - Mumbai Office",
+    "fields": {},
+    "review": "Likely non-project listing",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Classification based on the original listing name and website; retained for review, not treated as a housing project.",
+    "units": []
+  },
+  "ChIJmZtXh1fH5zsRmccC2uM16kM": {
+    "name": "Tridhaatu Morya",
+    "fields": {
+      "Brand Name": "Tridhaatu",
+      "Builder Name": "Tridhaatu Realty & Infra Pvt Ltd",
+      "Configurations Type": "Apartment",
+      "Number of Towers": 3,
+      "Number of Units": 320,
+      "Total Project Area (Acres)": 2,
+      "Launch Date": "Jan 2018",
+      "Possession Date": "Dec 2025 (advertised)",
+      "RERA (Registration No)": "P51800013775; P51800015776; P51800047341",
+      "Project Overview": "Chembur development offering 1, 2 and 3 BHK homes.",
+      "Amenities": "Lifts; security; clubhouse; gym; swimming pool"
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/80778-tridhaatu-morya-by-tridhaatu-realty-infra-pvt-ltd-in-chembur",
+    "checked": "2026-09-28",
+    "notes": "Multiple phases; confirm tower-specific handover.",
+    "units": [
+      [
+        "1 BHK",
+        477.28,
+        14700000,
+        "Not specified",
+        "Advertised floor-plan starting price"
+      ],
+      [
+        "2 BHK",
+        null,
+        null,
+        "Not specified",
+        "612–728 sq ft; advertised price range Rs 1.88–2.24 crore"
+      ],
+      [
+        "3 BHK",
+        null,
+        null,
+        "Not specified",
+        "1005–1008 sq ft; advertised price range Rs 3.09–3.10 crore"
+      ]
+    ]
+  },
+  "ChIJvefAZJPP5zsR6UHQhDI_bpg": {
+    "name": "Rustomjee Crown",
+    "fields": {
+      "Brand Name": "Rustomjee",
+      "Builder Name": "Rustomjee Builders",
+      "Configurations Type": "Apartment",
+      "Project Overview": "Prabhadevi development; researched source covers Phase 1 only.",
+      "Highlights": "Phase 1: 372 units, two buildings; ready to move per portal.",
+      "Amenities": "Infinity pool; landscaped podium"
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/53150-rustomjee-crown-phase-1-by-rustomjee-builders-in-prabhadevi",
+    "checked": "2026-09-28",
+    "notes": "Phase 1 only: P51900003268; launch Jan 2010; updated 8 Sep 2026. Not used as whole-project counts or status.",
+    "units": [
+      [
+        "3 BHK",
+        null,
+        null,
+        "Not specified",
+        "Phase 1; combined 1466–1700 sq ft and Rs 11.80–13.27 crore"
+      ],
+      [
+        "4 BHK",
+        null,
+        null,
+        "Not specified",
+        "Phase 1; exact area-price pairing unavailable"
+      ]
+    ]
+  },
+  "ChIJExY4_L_P5zsRH01-ZrNpJIA": {
+    "name": "7 Mahalaxmi",
+    "fields": {
+      "Brand Name": "Runwal",
+      "Builder Name": "Runwal Real Estates Private Limited",
+      "Configurations Type": "Apartment",
+      "Project Overview": "7 Mahalaxmi development; available registry-derived record covers Tower 2."
+    },
+    "review": "Source found; partial details",
+    "source": "https://www.geosquare.in/7-mahalaxmi-tower-2-kurla-mumbai-real-estate-project/index.html",
+    "checked": "2026-09-28",
+    "notes": "Tower 2 only: P51900079270; scheduled completion 31 Oct 2031. Source has inconsistent administrative locality; verify against MahaRERA. Zero units in source omitted as missing data.",
+    "units": []
+  },
+  "ChIJoUmuGPTH5zsRpC32B2Ypqvw": {
+    "name": "Runwal Avenue - Official Site",
+    "fields": {
+      "Brand Name": "Runwal",
+      "Builder Name": "Runwal Realty",
+      "Configurations Type": "Apartment",
+      "Project Overview": "Kanjurmarg multi-wing development; researched detail covers Wing N.",
+      "Highlights": "Integrated retail; bay and hill views advertised.",
+      "Amenities": "Club facilities; health clinic"
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/289484-runwal-avenue-wing-n-by-runwal-realty-in-kanjurmarg-east",
+    "checked": "2026-09-28",
+    "notes": "Wing N only: P51800047714; 248 units; one building; launch Nov 2022; target Dec 2027; source updated 21 Aug 2026. Not assigned as whole-project totals.",
+    "units": [
+      [
+        "1 BHK",
+        null,
+        null,
+        "Not specified",
+        "Wing N; combined range 390–647 sq ft and Rs 1.08–1.88 crore"
+      ],
+      [
+        "2 BHK",
+        null,
+        null,
+        "Not specified",
+        "Wing N configuration"
+      ]
+    ]
+  },
+  "ChIJH_LMCBTJ5zsRlhMrYr2GX6A": {
+    "name": "B. Kandhari Group",
+    "fields": {},
+    "review": "Likely non-project listing",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Classification based on the original listing name and website; retained for review, not treated as a housing project.",
+    "units": []
+  },
+  "ChIJGc9hV8HJ5zsREOg6SjR34b0": {
+    "name": "Anaya, by Lotus Developers",
+    "fields": {
+      "Brand Name": "Lotus Developers",
+      "Builder Name": "Lotus promoter group (legal project entity unconfirmed)",
+      "Configurations Type": "Apartment",
+      "Status": "Completed (developer-reported)",
+      "Project Overview": "Anaya is a residential building in Juhu.",
+      "Amenities": "Rooftop pool; gym; entrance lobby"
+    },
+    "review": "Source found; partial details",
+    "source": "https://lotusdevelopers.com/",
+    "checked": "2026-09-28",
+    "notes": "Company materials distinguish promoter-owned projects from listed company projects.",
+    "units": []
+  },
+  "ChIJ7a1ZdibJ5zsRlE0f4SXdxsg": {
+    "name": "Argentec Ltd",
+    "fields": {},
+    "review": "Likely non-project listing",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Classification based on the original listing name and website; retained for review, not treated as a housing project.",
+    "units": []
+  },
+  "ChIJ__pbGTjI5zsRtLSrZmFvO0g": {
+    "name": "Space Group of companies",
+    "fields": {},
+    "review": "Likely non-project listing",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Classification based on the original listing name and website; retained for review, not treated as a housing project.",
+    "units": []
+  },
+  "ChIJyzewCCnI5zsR5UB4hZuF5f4": {
+    "name": "Stuti Housing",
+    "fields": {},
+    "review": "Likely non-project listing",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Classification based on the original listing name and website; retained for review, not treated as a housing project.",
+    "units": []
+  },
+  "ChIJU9EfaRDJ5zsRtplSxEsEPSs": {
+    "name": "Dreams2Realty",
+    "fields": {},
+    "review": "Likely non-project listing",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Classification based on the original listing name and website; retained for review, not treated as a housing project.",
+    "units": []
+  },
+  "ChIJXxOy_hDJ5zsRsCLrIqOqQ-I": {
+    "name": "CRD Group",
+    "fields": {},
+    "review": "Likely non-project listing",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Classification based on the original listing name and website; retained for review, not treated as a housing project.",
+    "units": []
+  },
+  "ChIJkzs99DvP5zsRpyNNxLneNJU": {
+    "name": "Lodha Park",
+    "fields": {
+      "Brand Name": "Lodha",
+      "Builder Name": "Lodha Group",
+      "Configurations Type": "Apartment",
+      "Launch Date": "May 2013",
+      "Last Updated Date": "2026-06-20",
+      "Project Overview": "Worli/Lower Parel multi-phase residential development with 2–5 BHK homes.",
+      "Amenities": "Private club; cinema; indoor pool; landscaped park"
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/38579-lodha-park-by-lodha-group-in-lower-parel",
+    "checked": "2026-09-28",
+    "notes": "Portal mixes towers/phases; counts, acreage and single possession date withheld.",
+    "units": [
+      [
+        "2 BHK",
+        null,
+        null,
+        "Not specified",
+        "Project configuration"
+      ],
+      [
+        "3 BHK",
+        null,
+        null,
+        "Not specified",
+        "Project configuration"
+      ],
+      [
+        "4 BHK",
+        null,
+        null,
+        "Not specified",
+        "Project configuration"
+      ],
+      [
+        "5 BHK",
+        null,
+        null,
+        "Not specified",
+        "Project configuration"
+      ]
+    ]
+  },
+  "ChIJ4_VJNw7J5zsRuj7EEHfYne0": {
+    "name": "Rawassa Constructions",
+    "fields": {},
+    "review": "Likely non-project listing",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Classification based on the original listing name and website; retained for review, not treated as a housing project.",
+    "units": []
+  },
+  "ChIJQaBFDDm25zsRKzyo9xqcWyA": {
+    "name": "LEVEL - The Residences",
+    "fields": {
+      "Brand Name": "Siroya",
+      "Builder Name": "M/s Siroya Keystone",
+      "Configurations Type": "Apartment; Studio",
+      "Number of Towers": 1,
+      "Number of Units": 224,
+      "Total Project Area (Acres)": 1,
+      "Launch Date": "Feb 2018",
+      "Possession Date": "Dec 2026 (scheduled)",
+      "Last Updated Date": "2026-08-21",
+      "RERA (Registration No)": "P51800011428",
+      "Project Overview": "Jogeshwari West development offering studios and 1/2 BHK homes.",
+      "Amenities": "Pool; podium garden; mechanical parking; gym; security"
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/102548-siroya-level-the-residences-by-ms-siroya-keystone-in-andheri-west",
+    "checked": "2026-09-28",
+    "notes": "Search did not establish reliable project-level details for this exact listing.",
+    "units": [
+      [
+        "Studio",
+        null,
+        null,
+        "Not specified",
+        "Combined size range 311–703 sq ft; project prices Rs 1–2.26 crore"
+      ],
+      [
+        "1 BHK",
+        null,
+        null,
+        "Not specified",
+        "Project configuration"
+      ],
+      [
+        "2 BHK",
+        null,
+        null,
+        "Not specified",
+        "Project configuration"
+      ]
+    ]
+  },
+  "ChIJrSUAS23J5zsRtx9QxZTl_9E": {
+    "name": "Rustomjee Parishram",
+    "fields": {
+      "Brand Name": "Rustomjee",
+      "Builder Name": "Rustomjee Builders",
+      "Configurations Type": "Apartment",
+      "Status": "Ready to Move (portal-reported)",
+      "Number of Towers": 1,
+      "Number of Units": 27,
+      "Total Project Area (Acres)": 0.46,
+      "Launch Date": "Jul 2023",
+      "Last Updated Date": "2026-08-03",
+      "RERA (Registration No)": "P51800033333",
+      "Project Overview": "Pali Hill development with 3, 4 and 5 BHK homes.",
+      "Amenities": "Rooftop pool; gym; terraces; security; clubhouse"
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/275243-rustomjee-parishram-by-rustomjee-builders-in-bandra-west",
+    "checked": "2026-09-28",
+    "notes": "Portal count is 27; another registry-derived page reports 21. Inventory total needs reconciliation.",
+    "units": [
+      [
+        "3 BHK",
+        null,
+        null,
+        "Not specified",
+        "1474–1521 sq ft; advertised Rs 21.97–22.69 crore"
+      ],
+      [
+        "4 BHK",
+        null,
+        null,
+        "Not specified",
+        "1727–2611 sq ft; advertised Rs 25.75–38.94 crore"
+      ],
+      [
+        "5 BHK",
+        3284,
+        489600000,
+        "Not specified",
+        "Advertised configuration size and price"
+      ]
+    ]
+  },
+  "ChIJv2EvksHJ5zsRJYDeItKhSPw": {
+    "name": "Ruparel Panache Santacruz West",
+    "fields": {
+      "Brand Name": "Ruparel",
+      "Builder Name": "Ruparel Realty",
+      "Configurations Type": "Apartment",
+      "Project Overview": "Santacruz West development marketed with deck residences and rooftop facilities.",
+      "Highlights": "21+ amenities advertised."
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/284154-ruparel-panache-by-ruparel-realty-in-santacruz-west",
+    "checked": "2026-09-28",
+    "notes": "Search did not establish reliable project-level details for this exact listing.",
+    "units": [
+      [
+        "3 BHK",
+        1098,
+        65100000,
+        "Not specified",
+        "Advertised floor-plan starting price; alternative size 1265 sq ft"
+      ]
+    ]
+  },
+  "ChIJtWmHKAbJ5zsR__Zl11pLrSA": {
+    "name": "Ekta Trinity - Ekta World",
+    "fields": {
+      "Brand Name": "Ekta",
+      "Builder Name": "Ekta World",
+      "Configurations Type": "Apartment",
+      "Status": "Ready to Move (portal-reported)",
+      "Number of Towers": 3,
+      "Number of Units": 74,
+      "Total Project Area (Acres)": 1,
+      "Launch Date": "May 2015",
+      "Possession Date": "Dec 2022 (advertised)",
+      "Last Updated Date": "2026-04-06",
+      "RERA (Registration No)": "P51800005021",
+      "Project Overview": "Santacruz West development with 1, 2 and 3 BHK homes.",
+      "Amenities": "Pool; gym; clubhouse; party lawn; jogging track; children's play area"
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/26374-ekta-trinity-by-ekta-world-in-santacruz-west",
+    "checked": "2026-09-28",
+    "notes": "Search did not establish reliable project-level details for this exact listing.",
+    "units": [
+      [
+        "1 BHK",
+        null,
+        null,
+        "Not specified",
+        "Advertised range Rs 2.61–3.11 crore"
+      ],
+      [
+        "2 BHK",
+        null,
+        null,
+        "Not specified",
+        "702–864 sq ft; advertised Rs 4.25–5.23 crore"
+      ],
+      [
+        "3 BHK",
+        null,
+        null,
+        "Not specified",
+        "876–1236 sq ft; advertised Rs 6.44–7.39 crore"
+      ]
+    ]
+  },
+  "ChIJYV9wOOXJ5zsRBLI_VHgpGCI": {
+    "name": "Ekta Verve",
+    "fields": {
+      "Brand Name": "Ekta",
+      "Builder Name": "Ekta World",
+      "Configurations Type": "Apartment",
+      "Number of Towers": 2,
+      "Launch Date": "May 2020",
+      "Possession Date": "Apr 2024 (advertised)",
+      "RERA (Registration No)": "P51800021089",
+      "Project Overview": "Khar West development with 4 and 5 BHK residences.",
+      "Amenities": "Sky lounge; private access-controlled elevator; gym"
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/198143-ekta-verve-by-ekta-world-in-santacruz-west",
+    "checked": "2026-09-28",
+    "notes": "Search did not establish reliable project-level details for this exact listing.",
+    "units": [
+      [
+        "4 BHK",
+        null,
+        null,
+        "Not specified",
+        "Combined size range 1729–2383 sq ft"
+      ],
+      [
+        "5 BHK",
+        null,
+        null,
+        "Not specified",
+        "Exact price unavailable"
+      ]
+    ]
+  },
+  "ChIJHWb148_J5zsReS_FoHsZaB8": {
+    "name": "1 BHK Flat On Rent In Bandra",
+    "fields": {},
+    "review": "Likely non-project listing",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Classification based on the original listing name and website; retained for review, not treated as a housing project.",
+    "units": []
+  },
+  "ChIJ030mpz3J5zsRCBR3YFldcIg": {
+    "name": "West Bay Apartments",
+    "fields": {},
+    "review": "Identity/details unresolved",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Several West Bay / Ekta WestBay developments exist. Exact building match unresolved.",
+    "units": []
+  },
+  "ChIJpSY85BTJ5zsR4DUTYh1L-hs": {
+    "name": "Two Roses",
+    "fields": {
+      "Brand Name": "Prakash",
+      "Builder Name": "Prakash Estates",
+      "Configurations Type": "Apartment",
+      "Status": "Ready to Move (portal-reported)",
+      "Number of Towers": 2,
+      "Number of Units": 61,
+      "Launch Date": "Jan 2015",
+      "Possession Date": "Jun 2021 (advertised)",
+      "Last Updated Date": "2026-04-06",
+      "RERA (Registration No)": "P51800004187",
+      "Project Overview": "Bandra West development offering 2 BHK homes.",
+      "Amenities": "Parking; water supply; rainwater harvesting; sewage treatment"
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/122363-prakash-two-roses-by-prakash-estates-in-bandra-west",
+    "checked": "2026-09-28",
+    "notes": "Search did not establish reliable project-level details for this exact listing.",
+    "units": [
+      [
+        "2 BHK",
+        730,
+        49600000,
+        "Carpet",
+        "Advertised floor-plan price"
+      ]
+    ]
+  },
+  "ChIJwaR7L_zI5zsRJhjy3SOdvhc": {
+    "name": "Primus Residences",
+    "fields": {
+      "Brand Name": "Kalpataru",
+      "Builder Name": "Kalpataru Group",
+      "Configurations Type": "Apartment",
+      "Status": "Ready to Move (portal-reported)",
+      "Number of Units": 162,
+      "Total Project Area (Acres)": 1,
+      "Launch Date": "Jan 2016",
+      "Possession Date": "Jun 2022 (advertised)",
+      "Last Updated Date": "2026-04-06",
+      "RERA (Registration No)": "P51800003522",
+      "Project Overview": "Santacruz East development with 2, 2.5 and 3 BHK homes."
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/34938-gurukrupa-primus-residences-by-kalpataru-group-in-santacruz-east",
+    "checked": "2026-09-28",
+    "notes": "Source pages disagree on building count (one vs three); omitted.",
+    "units": [
+      [
+        "2 BHK",
+        null,
+        null,
+        "Not specified",
+        "634–882 sq ft; advertised Rs 2.24–3.11 crore"
+      ],
+      [
+        "2.5 BHK",
+        null,
+        30200000,
+        "Not specified",
+        "Advertised configuration price"
+      ],
+      [
+        "3 BHK",
+        null,
+        null,
+        "Not specified",
+        "976–992 sq ft; advertised Rs 3.44–3.50 crore"
+      ]
+    ]
+  },
+  "ChIJNXmA4t_I5zsR5YVMu2AvI4I": {
+    "name": "Kalpataru Sparkle",
+    "fields": {
+      "Brand Name": "Kalpataru",
+      "Builder Name": "Kalpataru Group",
+      "Configurations Type": "Apartment",
+      "Status": "Ready to Move (portal-reported)",
+      "Number of Towers": 2,
+      "Number of Units": 95,
+      "Total Project Area (Acres)": 3,
+      "Launch Date": "Feb 2010",
+      "Last Updated Date": "2026-04-06",
+      "Project Overview": "Bandra East apartment development.",
+      "Amenities": "Clubhouse; gym; pool; landscaped garden; security"
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/45519-kalpataru-sparkle-by-kalpataru-group-in-bandra-east",
+    "checked": "2026-09-28",
+    "notes": "Search did not establish reliable project-level details for this exact listing.",
+    "units": [
+      [
+        "3 BHK",
+        1938,
+        105500000,
+        "Not specified",
+        "Advertised floor-plan price"
+      ],
+      [
+        "4 BHK",
+        null,
+        null,
+        "Not specified",
+        "2460–3400 sq ft; advertised Rs 13.40–18.51 crore"
+      ]
+    ]
+  },
+  "ChIJF4_vSG3J5zsRtOzn31Qr58s": {
+    "name": "Imperial Heights",
+    "fields": {},
+    "review": "Identity/details unresolved",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Multiple Imperial Heights buildings found; exact building match unresolved.",
+    "units": []
+  },
+  "ChIJc4WcY_DI5zsROXM61-eFQFY": {
+    "name": "Home RNA Complex",
+    "fields": {},
+    "review": "Identity/details unresolved",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Search did not establish reliable project-level details for this exact listing.",
+    "units": []
+  },
+  "ChIJy8GbeTzJ5zsRmc9MgR7_99M": {
+    "name": "81 Aureate",
+    "fields": {
+      "Brand Name": "MJ Shah",
+      "Builder Name": "MJ Shah Group",
+      "Configurations Type": "Apartment",
+      "Status": "Ready to Move (portal-reported)",
+      "Number of Towers": 1,
+      "Number of Units": 81,
+      "Launch Date": "Sep 2011",
+      "Possession Date": "Dec 2018 (portal-reported)",
+      "Last Updated Date": "2026-04-27",
+      "RERA (Registration No)": "P51800010171",
+      "Project Overview": "Bandra West development offering 4 BHK homes.",
+      "Amenities": "Pool; gym; clubhouse; security"
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/128311-mj-shah-81-aureate-by-mj-shah-group-in-bandra-west",
+    "checked": "2026-09-28",
+    "notes": "Source conflicts on area (4 vs 4.48 acres) and unit areas; project acreage withheld.",
+    "units": [
+      [
+        "4 BHK",
+        null,
+        null,
+        "Not specified",
+        "Headline 4212–4443 sq ft; advertised Rs 24.89–26.25 crore; source body has different areas"
+      ]
+    ]
+  },
+  "ChIJowJ1xBXJ5zsRmIkLyIoR-ck": {
+    "name": "Evershine Builders Private Limited",
+    "fields": {},
+    "review": "Likely non-project listing",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Classification based on the original listing name and website; retained for review, not treated as a housing project.",
+    "units": []
+  },
+  "ChIJP87LC-XI5zsRhOp919W6QXI": {
+    "name": "Narang Realty Pvt. Ltd.",
+    "fields": {},
+    "review": "Likely non-project listing",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Classification based on the original listing name and website; retained for review, not treated as a housing project.",
+    "units": []
+  },
+  "ChIJRfsDogvJ5zsR2zlaVMMjriQ": {
+    "name": "Sea Garden View",
+    "fields": {
+      "Brand Name": "Vaswani",
+      "Builder Name": "Vaswani Group",
+      "Configurations Type": "Apartment; Penthouse",
+      "Status": "Ready to occupy; sold out (developer-reported)",
+      "Number of Units": 25,
+      "Project Overview": "Santacruz West residential building with G+13 floors and sea views.",
+      "Highlights": "Occupancy certificate received according to developer."
+    },
+    "review": "Source found; partial details",
+    "source": "https://vaswanigroup.com/projects/sea-garden-view/",
+    "checked": "2026-09-28",
+    "notes": "Search did not establish reliable project-level details for this exact listing.",
+    "units": [
+      [
+        "4 BHK Penthouse",
+        null,
+        null,
+        "Not specified",
+        "Developer configuration; sold out"
+      ]
+    ]
+  },
+  "ChIJ5en4QQ3J5zsRP-n2CDMChAU": {
+    "name": "Raveshia Realty",
+    "fields": {},
+    "review": "Likely non-project listing",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Classification based on the original listing name and website; retained for review, not treated as a housing project.",
+    "units": []
+  },
+  "ChIJ7RAloq7J5zsRGTilDjEYDJ8": {
+    "name": "Flats for rent in Mumbai",
+    "fields": {},
+    "review": "Likely non-project listing",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Classification based on the original listing name and website; retained for review, not treated as a housing project.",
+    "units": []
+  },
+  "ChIJ660tOxTJ5zsRq-9tsejZNgM": {
+    "name": "Next Avenue",
+    "fields": {},
+    "review": "Identity/details unresolved",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Developer lists Next Avenue in Khar, while Google lists Bandra West. Exact site match unresolved.",
+    "units": []
+  },
+  "ChIJ_ccST0XJ5zsRCIcAXzIEdO0": {
+    "name": "Sayba Emerald",
+    "fields": {
+      "Brand Name": "Sayba",
+      "Builder Name": "Sayba Group",
+      "Configurations Type": "Apartment",
+      "Status": "Ready to Move (portal FAQ; conflicting body)",
+      "Number of Towers": 1,
+      "Number of Units": 52,
+      "Total Project Area (Acres)": 0.3,
+      "Launch Date": "Dec 2021",
+      "Possession Date": "Dec 2022 (advertised)",
+      "Last Updated Date": "2026-04-06",
+      "RERA (Registration No)": "P51800032059",
+      "Project Overview": "Station Road, Bandra West apartment development.",
+      "Amenities": "Pool; indoor games; landscaped garden; sewage treatment"
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/276470-sayba-emerald-by-sayba-group-in-bandra-west",
+    "checked": "2026-09-28",
+    "notes": "Source body says under construction; FAQ ready to move. Original Google website points to unrelated Instagram page.",
+    "units": [
+      [
+        "1 BHK",
+        475,
+        23300000,
+        "Carpet",
+        "Advertised floor-plan starting price"
+      ]
+    ]
+  },
+  "ChIJm7kZRnbJ5zsR92O0PQC4rBE": {
+    "name": "Kalpataru Imperia",
+    "fields": {
+      "Brand Name": "Kalpataru",
+      "Builder Name": "Kalpataru Group",
+      "Configurations Type": "Apartment",
+      "Number of Towers": 1,
+      "Number of Units": 25,
+      "Total Project Area (Acres)": 0.49,
+      "Launch Date": "Apr 2019",
+      "Possession Date": "Jun 2024 (advertised)",
+      "Last Updated Date": "2026-08-14",
+      "RERA (Registration No)": "P51800020203",
+      "Project Overview": "Santacruz West development with 2 and 3 BHK homes.",
+      "Amenities": "Gym; clubhouse; pool; security"
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/150234-kalpataru-imperia-by-kalpataru-group-in-santacruz-west",
+    "checked": "2026-09-28",
+    "notes": "Search did not establish reliable project-level details for this exact listing.",
+    "units": [
+      [
+        "2 BHK",
+        844,
+        38000000,
+        "Not specified",
+        "Advertised configuration price"
+      ],
+      [
+        "3 BHK",
+        null,
+        null,
+        "Not specified",
+        "1098–1269 sq ft; advertised Rs 4.94–5.71 crore"
+      ]
+    ]
+  },
+  "ChIJ____C9_I5zsRFV3szAzqXIU": {
+    "name": "Adani Realty",
+    "fields": {},
+    "review": "Likely non-project listing",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Classification based on the original listing name and website; retained for review, not treated as a housing project.",
+    "units": []
+  },
+  "ChIJNREmNW3J5zsRfSqlphrRKl8": {
+    "name": "Prestige Daffodils",
+    "fields": {
+      "Brand Name": "Prestige",
+      "Builder Name": "Prestige Projects Pvt Ltd",
+      "Configurations Type": "Apartment",
+      "Status": "Under construction (portal-reported)",
+      "Number of Towers": 1,
+      "Number of Units": 73,
+      "Total Project Area (Acres)": 1.24,
+      "Launch Date": "Dec 2021",
+      "Possession Date": "Dec 2026 (scheduled)",
+      "Last Updated Date": "2026-04-06",
+      "RERA (Registration No)": "P51800031980",
+      "Project Overview": "Pali Hill apartment development with 3 and 4 BHK homes.",
+      "Amenities": "Infinity pool; gym; pet park; parking"
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/274947-prestige-daffodils-chsl-by-prestige-projects-pvt-ltd-in-bandra-west",
+    "checked": "2026-09-28",
+    "notes": "Portal body gives Dec 2025 and incorrect locality text; headline uses Dec 2026 and Pali Hill. Another registry-derived source lists 50 units, so inventory needs confirmation.",
+    "units": [
+      [
+        "3 BHK",
+        1213.95,
+        182100000,
+        "Carpet",
+        "Advertised floor-plan starting price"
+      ],
+      [
+        "4 BHK",
+        null,
+        null,
+        "Not specified",
+        "1988–3196 sq ft; advertised Rs 29.82–47.94 crore"
+      ]
+    ]
+  },
+  "ChIJswTrUhnJ5zsRMWvpEoGrDNg": {
+    "name": "Leo Eminence",
+    "fields": {
+      "Brand Name": "Leo",
+      "Builder Name": "Leo Infrastructure Private Limited",
+      "Configurations Type": "Apartment",
+      "Status": "Ready to Move (portal headline; conflicting body)",
+      "Number of Towers": 3,
+      "Number of Units": 209,
+      "Total Project Area (Acres)": 0.29,
+      "Launch Date": "Jun 2022",
+      "Possession Date": "Dec 2025 (advertised)",
+      "Last Updated Date": "2026-04-27",
+      "RERA (Registration No)": "P51800046335",
+      "Project Overview": "Bandra East development with 1 and 2 BHK homes.",
+      "Amenities": "Rooftop pool; gym; library; multipurpose court",
+      "Approved Banks": "HDFC; LIC Housing Finance; Punjab National Bank (portal-reported; reconfirm)"
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/286391-leo-eminence-by-leo-infrastructures-in-bandra-east",
+    "checked": "2026-09-28",
+    "notes": "Source body says under construction; headline ready to move. Lender names are portal claims, not bank confirmation.",
+    "units": [
+      [
+        "1 BHK",
+        421.95,
+        18700000,
+        "Not specified",
+        "Advertised floor-plan price"
+      ],
+      [
+        "2 BHK",
+        null,
+        null,
+        "Not specified",
+        "Advertised price range Rs 2.76–2.96 crore"
+      ]
+    ]
+  },
+  "ChIJnQsKRJPI5zsRmJXDx7PjBEo": {
+    "name": "Omkar Vive",
+    "fields": {
+      "Brand Name": "Omkar",
+      "Builder Name": "Omkar Realtors & Developers",
+      "Configurations Type": "Apartment",
+      "Status": "Ready to Move (portal-reported)",
+      "Number of Towers": 1,
+      "Number of Units": 179,
+      "Launch Date": "Mar 2016",
+      "Last Updated Date": "2026-04-06",
+      "RERA (Registration No)": "P51800005985",
+      "Project Overview": "Kurla West apartments in 1 and 2 BHK configurations.",
+      "Highlights": "Approximately 1 km from BKC.",
+      "Amenities": "Laundromat; basement parking"
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/38402-omkar-vive-by-omkar-realtors-developers-in-kurla-west",
+    "checked": "2026-09-28",
+    "notes": "Search did not establish reliable project-level details for this exact listing.",
+    "units": [
+      [
+        "1 BHK",
+        null,
+        null,
+        "Not specified",
+        "Combined 414–541 sq ft; project range Rs 1.49–2.19 crore"
+      ],
+      [
+        "2 BHK",
+        null,
+        null,
+        "Not specified",
+        "Project configuration"
+      ]
+    ]
+  },
+  "ChIJuePIJ1HJ5zsRFrbXWywk74g": {
+    "name": "Dosti Mezzo 22",
+    "fields": {
+      "Brand Name": "Dosti",
+      "Builder Name": "Dosti Realty",
+      "Configurations Type": "Apartment",
+      "Status": "Ready to Move (portal headline; conflicting body)",
+      "Number of Towers": 2,
+      "Number of Units": 296,
+      "Total Project Area (Acres)": 1.37,
+      "Launch Date": "Apr 2022",
+      "Last Updated Date": "2026-07-01",
+      "RERA (Registration No)": "P51900026976",
+      "Project Overview": "Sion residential development with 2 and 3 BHK homes.",
+      "Amenities": "Rooftop swimming pool; EV charging; rainwater harvesting"
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/274434-dosti-mezzo-22-by-dosti-realty-in-sion",
+    "checked": "2026-09-28",
+    "notes": "Source body says under construction, headline says ready. Registry-derived source reports 303 units vs portal 296; confirm before relying on count.",
+    "units": [
+      [
+        "2 BHK",
+        639,
+        28500000,
+        "Not specified",
+        "Advertised floor-plan price"
+      ],
+      [
+        "3 BHK",
+        null,
+        45400000,
+        "Not specified",
+        "Advertised configuration price; size not paired"
+      ]
+    ]
+  },
+  "ChIJi-Ri12HJ5zsRFa7-iZrPiCE": {
+    "name": "Sunteck Signia Isles BKC",
+    "fields": {
+      "Brand Name": "Sunteck",
+      "Builder Name": "Sunteck Realty",
+      "Configurations Type": "Apartment",
+      "Status": "Ready to Move (portal-reported)",
+      "Number of Units": 80,
+      "Launch Date": "Apr 2009",
+      "Last Updated Date": "2026-04-06",
+      "Project Overview": "BKC residential development with 4 and 5 BHK homes."
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/34216-sunteck-signia-isles-by-sunteck-realty-in-bandra-east",
+    "checked": "2026-09-28",
+    "notes": "Portal says RERA not applicable; independently verify exemption.",
+    "units": [
+      [
+        "4 BHK",
+        null,
+        null,
+        "Not specified",
+        "Project configuration"
+      ],
+      [
+        "5 BHK",
+        null,
+        null,
+        "Not specified",
+        "Project configuration"
+      ]
+    ]
+  },
+  "ChIJXT6dhG3J5zsRZov2Vart4_Q": {
+    "name": "Diago Complex",
+    "fields": {
+      "Project Overview": "Cooperative residential building in Rizvi Complex, Bandra West."
+    },
+    "review": "Source found; partial details",
+    "source": "https://malki.in/mumbai/bandra/daigo-co-op-hsg-society-ltd-806af8/",
+    "checked": "2026-09-28",
+    "notes": "Matched as an existing society; launch, RERA and original builder not established.",
+    "units": []
+  },
+  "ChIJqQ9Q2_PJ5zsRsUNzOqrjH5U": {
+    "name": "AUM DEVELOPERS",
+    "fields": {},
+    "review": "Likely non-project listing",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Classification based on the original listing name and website; retained for review, not treated as a housing project.",
+    "units": []
+  },
+  "ChIJOU_azrHJ5zsRjSywAMw9LOE": {
+    "name": "9 Almeida",
+    "fields": {
+      "Brand Name": "Sach",
+      "Builder Name": "Sach Ishaan Developers",
+      "Configurations Type": "Apartment",
+      "Status": "Ready to Move (portal-reported)",
+      "Number of Towers": 1,
+      "Number of Units": 13,
+      "Launch Date": "Mar 2015",
+      "RERA (Registration No)": "P51900006016",
+      "Project Overview": "Bandra West apartment development with 3, 4 and 5 BHK homes."
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/20258-sach-9almeida-by-sach-ishaan-developers-in-bandra-west",
+    "checked": "2026-09-28",
+    "notes": "Search did not establish reliable project-level details for this exact listing.",
+    "units": [
+      [
+        "3 BHK",
+        965.09,
+        53100000,
+        "Carpet",
+        "Advertised floor-plan price"
+      ],
+      [
+        "4 BHK",
+        null,
+        76400000,
+        "Not specified",
+        "Advertised configuration price"
+      ],
+      [
+        "5 BHK",
+        null,
+        119500000,
+        "Not specified",
+        "Advertised configuration price"
+      ]
+    ]
+  },
+  "ChIJ7z-tB3PJ5zsRPOyoYi9f9HE": {
+    "name": "Sea Hill Apartments",
+    "fields": {
+      "Configurations Type": "Apartment",
+      "Last Updated Date": "2026-04-06",
+      "Project Overview": "Residential building on Union Park Road near Le Sutra Hotel, Khar West."
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/142020-sea-hill-apartments-by-reputed-builder-in-khar-west",
+    "checked": "2026-09-28",
+    "notes": "Builder not identified on matched source; redevelopment status needs clarification.",
+    "units": []
+  },
+  "ChIJ4Qyj9BXJ5zsRyBvtitmrNcI": {
+    "name": "BKC Crown - Urban developer",
+    "fields": {
+      "Brand Name": "Urban",
+      "Builder Name": "Urban Group",
+      "Configurations Type": "Apartment",
+      "Status": "Under construction (portal-reported)",
+      "Number of Towers": 1,
+      "Number of Units": 143,
+      "Total Project Area (Acres)": 0.55,
+      "Launch Date": "Mar 2023",
+      "Possession Date": "Dec 2026 (scheduled)",
+      "Last Updated Date": "2026-08-21",
+      "RERA (Registration No)": "P51800023174",
+      "Project Overview": "Kurla West development offering 1, 2 and 3 BHK homes.",
+      "Amenities": "Rooftop theatre; automated parking; gym; yoga; security"
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/229150-urban-bkc-crown-by-urban-group-in-kurla-west",
+    "checked": "2026-09-28",
+    "notes": "Search did not establish reliable project-level details for this exact listing.",
+    "units": [
+      [
+        "1 BHK",
+        313.55,
+        8447000,
+        "Carpet",
+        "Advertised floor-plan starting price"
+      ],
+      [
+        "2 BHK",
+        null,
+        null,
+        "Not specified",
+        "649–657 sq ft; advertised Rs 1.75–1.77 crore"
+      ],
+      [
+        "3 BHK",
+        906,
+        24400000,
+        "Not specified",
+        "Advertised configuration price"
+      ]
+    ]
+  },
+  "ChIJ50TkWunI5zsRwb5a_mbAAFo": {
+    "name": "Signia Pearl",
+    "fields": {
+      "Configurations Type": "Apartment",
+      "Status": "Ready to Move (portal-reported)",
+      "Possession Date": "Dec 2021 (portal-reported)",
+      "Project Overview": "BKC residential development offering 4 BHK homes."
+    },
+    "review": "Source found; partial details",
+    "source": "https://www.propertybaazi.com/projects/signia-pearl-bandra-kurla-complex-mumbai",
+    "checked": "2026-09-28",
+    "notes": "Search did not establish reliable project-level details for this exact listing.",
+    "units": [
+      [
+        "4 BHK",
+        null,
+        null,
+        "Carpet",
+        "Advertised range 2877–4000 sq ft and Rs 19–29.2 crore"
+      ]
+    ]
+  },
+  "ChIJX7TJZq7J5zsRbhGzC-sY_x0": {
+    "name": "Kalpataru Limited",
+    "fields": {},
+    "review": "Likely non-project listing",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Classification based on the original listing name and website; retained for review, not treated as a housing project.",
+    "units": []
+  },
+  "ChIJ1wEAAC3I5zsRk4QVA1ajNag": {
+    "name": "Rental Flats Andheri",
+    "fields": {},
+    "review": "Likely non-project listing",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Classification based on the original listing name and website; retained for review, not treated as a housing project.",
+    "units": []
+  },
+  "ChIJ5VjlIQbJ5zsRND0dCAvdFVY": {
+    "name": "Ariisto Sapphire",
+    "fields": {
+      "Brand Name": "Ariisto",
+      "Builder Name": "Ariisto Realtors",
+      "Configurations Type": "Apartment",
+      "Status": "Ready to Move (portal-reported)",
+      "Number of Towers": 2,
+      "Number of Units": 88,
+      "Launch Date": "Feb 2010",
+      "Last Updated Date": "2026-04-06",
+      "Project Overview": "Santacruz West apartment development with 2 and 3 BHK homes.",
+      "Amenities": "Pool; gym; yoga area; tennis; parking; children's play area"
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/50127-ariisto-sapphire-by-ariisto-realtors-in-santacruz-west",
+    "checked": "2026-09-28",
+    "notes": "Source contains unrelated Pune location highlights; those omitted. RERA not provided.",
+    "units": [
+      [
+        "2 BHK",
+        1285,
+        null,
+        "Built-up",
+        "Price on request"
+      ],
+      [
+        "3 BHK",
+        null,
+        null,
+        "Not specified",
+        "Advertised range Rs 7.44–8.98 crore"
+      ]
+    ]
+  },
+  "ChIJtT7i7eLO5zsRblOlsglS_lE": {
+    "name": "L&T Realty Crescent Bay",
+    "fields": {
+      "Brand Name": "L&T",
+      "Builder Name": "L&T Realty",
+      "Configurations Type": "Apartment",
+      "Project Overview": "Parel multi-tower development; detailed source covers Tower 5."
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/52052-l-and-t-crescent-bay-t5-by-lt-realty-in-parel",
+    "checked": "2026-09-28",
+    "notes": "T5 only: P51900004544; 298 units; launch Oct 2012; target Aug 2018; not applied as whole-project totals.",
+    "units": [
+      [
+        "3 BHK",
+        938,
+        37500000,
+        "Carpet",
+        "T5 advertised floor-plan starting price"
+      ]
+    ]
+  },
+  "ChIJAQAA0CHJ5zsRhOMSw8SayCw": {
+    "name": "Agami Realty",
+    "fields": {},
+    "review": "Likely non-project listing",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Classification based on the original listing name and website; retained for review, not treated as a housing project.",
+    "units": []
+  },
+  "ChIJFS0-HODI5zsRWKdIk7PRY8w": {
+    "name": "A&O Realty",
+    "fields": {},
+    "review": "Likely non-project listing",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Classification based on the original listing name and website; retained for review, not treated as a housing project.",
+    "units": []
+  },
+  "ChIJoaXuhAHJ5zsRgqxVKUfjMV8": {
+    "name": "Puneet Prime",
+    "fields": {
+      "Brand Name": "Puneet",
+      "Builder Name": "Puneet Urban Spaces",
+      "Configurations Type": "Apartment",
+      "Project Overview": "Kurla residential development; researched source covers Phase 2 floors 3–16.",
+      "Amenities": "Automated parking; security; sewage treatment; landscaping"
+    },
+    "review": "Source found; partial details",
+    "source": "https://housing.com/in/buy/projects/page/171562-puneet-prime-phase-2-floor-3-to-floor-16-by-puneet-urban-spaces-in-kurla-east",
+    "checked": "2026-09-28",
+    "notes": "Phase 2 only: P51800020753; 109 units; launch Sep 2019; headline ready to move but body under construction; not used as whole-project status. Offer prices differ from headline.",
+    "units": [
+      [
+        "2 BHK",
+        570,
+        13100000,
+        "Not specified",
+        "Phase 2 headline advertised price; old offer in body differs"
+      ]
+    ]
+  },
+  "ChIJy2UyaNLO5zsRLl99VNbAjWQ": {
+    "name": "Apartment In Mumbai City Centre",
+    "fields": {},
+    "review": "Likely non-project listing",
+    "source": "",
+    "checked": "2026-09-28",
+    "notes": "Classification based on the original listing name and website; retained for review, not treated as a housing project.",
+    "units": []
+  }
+}
