@@ -20,11 +20,13 @@ class SearchTests(unittest.TestCase):
             with patch.object(backend, '__file__', str(Path(directory) / 'main.py')), \
                  patch.object(backend, 'load_api_key', return_value='test'), \
                  patch.object(backend, 'load_project_details', return_value={'mumbai-id': {'fields': {'Builder Name': 'Mumbai builder'}}}), \
-                 patch.object(backend.requests, 'post', return_value=response) as post:
-                result = backend.main('Pune', interactive=False)
+                 patch('portals.discover', return_value=({'pune-id': {'place':response.json.return_value['places'][0], 'queries':{'Magicbricks'}}}, {}, ['Magicbricks checked'])) as discovery, \
+                 patch.object(backend.requests, 'post') as post:
+                result = backend.main('Pune', interactive=False, auto_research=False)
             self.assertEqual(result['count'], 1)
             self.assertEqual(result['researched'], 0)
-            self.assertTrue(all('Pune, India' in c.kwargs['json']['textQuery'] for c in post.call_args_list))
+            post.assert_not_called()
+            discovery.assert_called_once_with('Pune', None)
             wb = load_workbook(Path(directory) / 'output' / result['file'])
             self.assertEqual(wb['Projects']['A2'].data_type, 's')
             self.assertIsNone(wb['Projects']['C2'].value)
@@ -35,14 +37,10 @@ class SearchTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             backend.main('../../config')
 
-    def test_api_error_redacts_key(self):
-        response = Mock(ok=False, status_code=403)
-        response.json.return_value = {'error': {'message': 'invalid secret-key'}}
-        with patch.object(backend, 'load_api_key', return_value='secret-key'), \
-             patch.object(backend.requests, 'post', return_value=response):
-            with self.assertRaises(SystemExit) as error:
+    def test_blocked_portals_do_not_export_empty_workbook(self):
+        with patch('portals.discover', return_value=({}, {}, ['Portals restricted'])):
+            with self.assertRaisesRegex(ValueError, 'No empty workbook'):
                 backend.main('Delhi')
-        self.assertNotIn('secret-key', str(error.exception))
 
 
 if __name__ == '__main__':

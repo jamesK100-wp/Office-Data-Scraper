@@ -1,25 +1,57 @@
+<div align="center">
+
 # PI GURBANI REALESTATE
 
-Enter an Indian city in the browser interface, search residential project candidates, preview results and download Excel. Runs locally on this Windows computer; no coding is needed for day-to-day use.
+**Explore a city. Review project candidates. Export your research.**
 
-## Windows quick start
+A local Python web app for discovering residential project candidates on Magicbricks and 99acres and organizing available details in Excel.
 
-1. Install Python 3.10 or newer from https://www.python.org/downloads/ if needed. Enable "Add Python to PATH" during installation.
-2. On GitHub, select **Code > Download ZIP**, then extract it completely.
-3. Open the extracted folder. Copy `.env.example` to `.env` and replace the placeholder with your Google Places API key. Enable Places API (New) and billing for that key. This is a one-time administrator setup. Double-click `run_windows.bat`.
-4. The launcher creates a local virtual environment and installs dependencies (internet required).
-5. The browser opens PI GURBANI REALESTATE. The backend loads the key from `.env` beside `main.py`; the key is never sent to the browser.
-6. Type a city, click **Find projects**, then **Download Excel**. Reports are also saved in `output` with city and timestamp in the filename.
+Python 3.10+ | Browser interface | Excel exports | Source references
 
-Keep the launcher window open while using the app. Closing it stops the local server. This is a local application, not a deployed public website. The existing `python main.py` command still exports Mumbai directly.
+[Quick start](#quick-start) | [Screenshots](#screenshots) | [How it works](#how-it-works) | [Limitations](#limitations)
 
-City searches use Google Places. Detailed saved research is joined by exact Place ID and currently mainly covers Mumbai. Magicbricks and 99acres are not queried live. New cities can have blank prices, RERA, units and possession fields until project research is added. Returned candidates can include agencies and nearby cities; this is not an exhaustive city inventory.
+</div>
 
-Your Google Cloud project must have Places API (New) enabled, billing configured, and a key whose restrictions permit these web-service requests. API usage may incur charges. Your local `.env` file is excluded from Git; do not share it.
+## Screenshots
 
-## Manual setup (any platform)
+### Desktop search
 
-Run these commands inside the extracted project folder:
+![Desktop search interface with city shortcuts](docs/screenshots/search.png)
+
+Enter a city or choose a shortcut to start researching available project pages.
+
+<details>
+<summary><strong>View the compact layout</strong></summary>
+<br>
+<img src="docs/screenshots/mobile.png" alt="Compact search layout with stacked controls" width="360">
+
+</details>
+
+Screenshots show the current local app. Search results vary with portal availability.
+
+## Features
+
+- **City-based discovery:** search Indian cities, with Bengaluru/Bangalore and Gurugram/Gurgaon aliases.
+- **Project preview:** review the first ten candidates before downloading the full report.
+- **Excel reports:** separate Projects, Project Units and Read me worksheets.
+- **Source visibility:** retain source URLs, extraction status and retrieval timestamps.
+- **Partial results:** accessible pages still contribute when another portal fails.
+- **Clear diagnostics:** distinguish network failures, HTTP denials and unsupported pages.
+
+## Quick start
+
+### Windows
+
+1. Install Python 3.10 or newer and enable **Add Python to PATH**.
+2. Download or clone the project and extract it if necessary.
+3. Double-click `run_windows.bat`. The launcher installs dependencies and opens the app.
+4. Enter a city, select **Find projects**, then **Download Excel**.
+
+Keep the launcher running while using the app. No Google API key is needed for this version.
+
+### Manual setup
+
+Run inside the project folder:
 
 ```sh
 python -m venv .venv
@@ -31,61 +63,86 @@ Activate on Windows PowerShell:
 .\.venv\Scripts\Activate.ps1
 ```
 
-Or activate on macOS/Linux:
+Or on macOS/Linux:
 
 ```sh
 source .venv/bin/activate
 ```
 
-Then:
+Install and launch:
 
 ```sh
 python -m pip install -r requirements.txt
-python main.py
+python app.py
 ```
 
-The script checks the `GOOGLE_MAPS_API_KEY` environment variable first, then `.env`, then prompts privately. To configure `.env`, add `GOOGLE_MAPS_API_KEY=your_key_here`. Do not commit or share your key.
+Open **http://127.0.0.1:8000**. For a Mumbai export directly from the command line, run `python main.py`.
 
-## Excel columns
+## How it works
 
-The `Projects` sheet includes Project Name, Brand Name, Builder Name, Latitude, Longitude, Address, City, Locality, Status, Project Overview, Highlights, Launch Date, Possession Date, Configurations Type, RERA (Registration No), Number of Towers, Number of Units, Total Project Area (Acres), Last Updated Date, Approved Banks and Amenities. Source identifiers, contact links, search category and retrieval time follow these columns.
+1. Read the first city project-directory page on each supported portal.
+2. Inspect up to 30 discovered project pages per portal.
+3. Extract supported published fields and structured floor plans where available.
+4. Preview candidates and save a timestamped workbook in `output/`.
 
-The `Project Units` sheet supports multiple configurations per project: Place ID, Project Name, Cat ID, Unit Type, Area (Sq Ft), Price (Rs.), Area Basis, Source URL, Source Updated Date and Price / Configuration Notes. Saved research provides configurations and advertised prices where found. Cat ID is blank when the property source does not provide it.
+## Excel output
 
-Google supplies names, coordinates, address components and contact details where available. `project_details.json` contains research checked on 28 September 2026, joined by exact Google Place ID. It covers 53 researched rows, 37 likely non-project listings and 10 unresolved records from the original 100-candidate export. New Google results without a matching record remain marked Not researched. The file is a research snapshot, not an automatic web scraper or a live price feed.
+| Worksheet | Contents |
+| --- | --- |
+| Projects | Project identity, supported overview fields, source references and research status |
+| Project Units | Supported configurations and areas, with provenance where available |
+| Read me | Search scope, source diagnostics and interpretation notes |
 
-Projects includes Record Review, Detail Source URL, Research Checked Date, Research Notes and Missing Project Fields. Filter Record Review to distinguish researched projects from company/agency listings. Portal claims are attributed, not independently certified against MahaRERA. Conflicts, old possession targets and phase-specific information are flagged. Prices and areas are paired only where the source supports that pairing; ranges remain in notes. Missing numeric values remain blank rather than zero. Last Updated Date is the source's own date, never the script run date. Month-only dates remain text to avoid inventing a day.
+Missing numeric values remain blank. Prices, project status and phase totals require verification; the app does not invent missing details.
 
-The script follows pagination and combines duplicate place IDs across the two searches. Empty API fields remain blank. Failed searches stop before writing a new workbook; previously saved workbooks remain available.
+## Limitations
 
-## What the results mean
+This is a research aid, not a complete property database or live price feed. The app only checks the first directory page per portal. Sites may deny automated requests, require JavaScript, change layout or exceed the page-size limit. Some candidates may have only a name and source URL.
 
-- These are candidates returned by text search, not a complete Mumbai project database. Agencies, unrelated places and nearby locations may be returned.
-- Search categories describe the queries, not verified project status. All statuses start as "Needs verification".
-- Places does not supply property listing-added dates, project launch dates or possession dates. Date columns remain blank for verification from project-specific sources. The script does not filter recently added projects.
-- Prices, developer identity and ready-to-move status from saved research need reconfirmation with the developer or regulator. Research sources are linked in the workbook.
-- No live API data is bundled. Run with your own compatible key to retrieve results.
-- Google restricts storage/export of Places content. Review the applicable terms before exporting or retaining returned content: https://developers.google.com/maps/documentation/places/web-service/policies
-
-API reference: https://developers.google.com/maps/documentation/places/web-service/text-search
+The app respects its robots checks and does not bypass logins or CAPTCHA. If no candidates are accessible, it reports the problem without creating an empty workbook. Google Places, developer websites and the older `project_details.json` research snapshot are not used in the current discovery flow.
 
 ## Troubleshooting
 
-- HTTP 400: verify the request and that you are using Places API (New).
-- HTTP 401/403: check the key, API enablement, billing and key restrictions.
-- HTTP 429: check project quota and billing; retry later.
-- Network failure: check your internet connection and retry.
-- Permission error saving Excel: check folder permissions and close any workbook that could be locked.
+| Message | Next step |
+| --- | --- |
+| Connection failed | Check outbound network access, DNS, proxy and firewall settings; launch from your normal terminal |
+| HTTP 403 | The portal denied the request; available results from the other portal can still export |
+| HTTP 429 | Wait before trying again |
+| No supported project links | The page may require JavaScript or its layout may have changed |
+| Page too large | That page exceeded the download limit and was skipped |
+| Cannot save workbook | Check folder permissions and close any locked output file |
 
-## Folder layout
+Temporary connection errors, timeouts and HTTP 502/503/504 failures are retried up to twice. Access denials and rate limits are not retried. A Retry-After response defers retries to a later search.
+
+## Share a temporary demo
+
+With the app running and Cloudflare Tunnel installed:
+
+```sh
+cloudflared tunnel --url http://127.0.0.1:8000
+```
+
+Share the generated HTTPS URL. Keep the computer awake and both processes running. Anyone with the link can access the app. The localhost address only works on the computer hosting the app. Temporary tunnel links are intentionally not committed to this README.
+
+## Project structure
 
 ```text
-mumbai-realestate-project/
-  main.py
-  requirements.txt
-  run_windows.bat
-  README.md
-  .gitignore
-  output/
-    README.txt
+app.py                 Local web server and search jobs
+main.py                Excel report generation
+portals.py             Portal discovery and project extraction
+enrichment.py          HTTP fetching and structured-data parsing
+web/index.html         Browser interface
+docs/screenshots/      README screenshots
+requirements.txt       Python dependencies
+run_windows.bat        Windows launcher
+test_*.py              Automated checks
+output/                Generated reports
 ```
+
+## Development
+
+```sh
+python -m unittest discover -p "test_*.py"
+```
+
+Tests cover source boundaries, retry behavior, extraction and workbook generation. Live portal access is environment-dependent and is not guaranteed by unit tests. Keep `.env`, generated reports and local runtime files out of commits.

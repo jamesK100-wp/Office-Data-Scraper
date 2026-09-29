@@ -1,5 +1,6 @@
 """Local browser interface. Run with python app.py."""
 import json
+import os
 import sys
 import secrets
 import threading
@@ -19,8 +20,11 @@ LOCK = threading.Lock()
 
 
 def search(job_id, city):
+    def progress(message):
+        with LOCK:
+            JOBS[job_id]['message'] = message
     try:
-        result = main(city, interactive=False)
+        result = main(city, interactive=False, progress=progress)
         state = {"status": "done", **result}
     except requests.RequestException:
         state = {"status": "error", "error": "Cannot connect to the search service. Check your internet connection and try again."}
@@ -93,7 +97,9 @@ class Handler(BaseHTTPRequestHandler):
 
 
 if __name__ == "__main__":
-    server = ThreadingHTTPServer(("127.0.0.1", 0), Handler)
+    host = os.environ.get("APP_HOST", "127.0.0.1")
+    port = int(os.environ.get("APP_PORT", "8000"))
+    server = ThreadingHTTPServer((host, port), Handler)
     url = f"http://127.0.0.1:{server.server_port}"
     print(f"PI GURBANI REALESTATE is running at {url}", flush=True)
     webbrowser.open(url)

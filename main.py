@@ -1,14 +1,16 @@
-"""Find candidate Mumbai projects. Status and launch dates require verification.
+"""Find candidate projects on Magicbricks and 99acres.
 Install: python -m pip install requests openpyxl
 Run: python main.py
-Requires Google Places API (New) enabled and billing configured.
-Review Google's Places storage terms before exporting/retaining API content.
+No Google API key required. Portal access and published details vary.
 """
 import os
 import json
+import sys
 from getpass import getpass
 from datetime import datetime, timezone
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from enrichment import enrich
 
 import requests
 from openpyxl import Workbook
@@ -26,10 +28,12 @@ PROJECT_COLUMNS = [
     "Search category (unverified)", "Retrieved at (UTC)",
     "Record Review", "Detail Source URL", "Research Checked Date", "Research Notes",
     "Missing Project Fields",
+    "Automatic Research Status", "Automatic Research Date",
 ]
 UNIT_COLUMNS = ["Place ID", "Project Name", "Cat ID", "Unit Type", "Area (Sq Ft)",
                 "Price (Rs.)", "Area Basis", "Source URL", "Source Updated Date",
-                "Price / Configuration Notes"]
+                "Price / Configuration Notes", "Number of Units", "Total Project Area (Acres)",
+                "Last Updated Date", "Approved Banks", "Amenities"]
 
 
 def load_project_details():
@@ -55,8 +59,12 @@ def source_date(value):
 
 
 def project_units(pid, name, detail):
-    return [[pid, name, "", kind, area, price, basis, detail.get("source", ""),
-             source_date(detail.get("fields", {}).get("Last Updated Date", "")), note]
+    fields = detail.get("fields", {})
+    return [["" if pid.startswith("http") else pid, name, "", kind, area, price, basis, detail.get("unit_source", detail.get("source", "")),
+             source_date(detail.get("unit_updated", fields.get("Last Updated Date", ""))), note,
+             fields.get("Number of Units"), fields.get("Total Project Area (Acres)"),
+             source_date(fields.get("Last Updated Date", "")),
+             fields.get("Approved Banks", ""), fields.get("Amenities", "")]
             for kind, area, price, basis, note in detail.get("units", [])]
 
 
@@ -79,7 +87,7 @@ def project_row(pid, entry, retrieved, detail=None):
         "City": address_component(place, "locality"),
         "Locality": address_component(place, "sublocality_level_1", "sublocality", "neighborhood"),
         "Status": "Needs verification",
-        "Place ID": pid,
+        "Place ID": "" if pid.startswith("http") else pid,
         "Phone": place.get("nationalPhoneNumber", ""),
         "Website": place.get("websiteUri", ""),
         "Google Maps link": place.get("googleMapsUri", ""),
@@ -97,6 +105,8 @@ def project_row(pid, entry, retrieved, detail=None):
         "Research Checked Date": source_date(detail.get("checked", "")),
         "Research Notes": detail.get("notes", "No research record for this Google Place ID."),
         "Missing Project Fields": "; ".join(c for c in PROJECT_COLUMNS[1:21] if values.get(c) in (None, "")),
+        "Automatic Research Status": detail.get("auto_status", "Not checked"),
+        "Automatic Research Date": source_date(detail.get("auto_checked", "")),
     })
     values["Last Updated Date"] = source_date(values.get("Last Updated Date", ""))
     return [values.get(column, "") for column in PROJECT_COLUMNS]
@@ -141,61 +151,14 @@ def load_api_key(interactive=True):
     return key
 
 
-def main(city="Mumbai", interactive=True):
+def main(city="Mumbai", interactive=True, auto_research=True, progress=None):
     city = " ".join(city.split())
     if not 2 <= len(city) <= 80 or not all(c.isalpha() or c in " ,.-'" for c in city):
         raise ValueError("Enter a city name, optionally followed by its Indian state.")
-    details = load_project_details()
-    key = load_api_key(interactive)
-    if not key.strip():
-        raise SystemExit("An API key is required.")
-    headers = {
-        "X-Goog-Api-Key": key.strip(),
-        "X-Goog-FieldMask": "places.id,places.displayName,places.formattedAddress,"
-        "places.location,places.addressComponents,"
-        "places.websiteUri,places.nationalPhoneNumber,places.googleMapsUri,nextPageToken",
-    }
-    candidates = {}
-    # Query categories are search intent, NOT evidence of project status.
-    for category in ("upcoming residential projects", "ready to move residential projects"):
-        query = f"{category} in {city}, India"
-        body = {"textQuery": query, "pageSize": 20, "languageCode": "en", "regionCode": "IN"}
-        tokens = set()
-        while True:
-            response = requests.post(
-                "https://places.googleapis.com/v1/places:searchText",
-                headers=headers, json=body, timeout=45,
-            )
-            if not response.ok:
-                try:
-                    detail = response.json().get("error", {}).get("message", "")
-                except ValueError:
-                    detail = ""
-                detail = str(detail).replace(key, "[REDACTED]")
-                raise SystemExit(
-                    f"Google API request failed (HTTP {response.status_code}). "
-                    f"{detail} "
-                    "Check your key restrictions, Places API (New), billing and quota. "
-                    "No new workbook was written."
-                )
-            try:
-                data = response.json()
-            except ValueError:
-                raise SystemExit("Google returned an invalid JSON response. Please retry.")
-            for place in data.get("places", []):
-                pid = place.get("id")
-                if not pid:
-                    continue
-                entry = candidates.setdefault(pid, {"place": place, "queries": set()})
-                entry["queries"].add(category)
-            token = data.get("nextPageToken")
-            if not token:
-                break
-            if token in tokens:
-                raise SystemExit("Repeated pagination token; stopped without writing a workbook.")
-            tokens.add(token)
-            body["pageToken"] = token
-
+    from portals import discover
+    candidates, details, source_reports = discover(city, progress)
+    if not candidates:
+        raise ValueError(' '.join(source_reports) + ' No accessible project records returned. No empty workbook created.')
     wb = Workbook()
     sheet = wb.active
     sheet.title = "Projects"
@@ -212,23 +175,13 @@ def main(city="Mumbai", interactive=True):
     format_table(units)
     notes = wb.create_sheet("Read me")
     for line in [
-        "Source: Google Maps / Places API (New)",
-        f"Search city: {city}, India. These are candidates, not an exhaustive or verified project list.",
-        "Results may include agencies, unrelated places or nearby cities; review addresses.",
-        "Search category does not confirm upcoming or ready-to-move status.",
-        "Places does not provide project launch dates, possession dates or listing-added dates.",
-        "Blank project fields require another source: builder, brand, RERA, dates, towers, units, area, banks and amenities.",
-        "Project details and units are supplemented from project_details.json, matched by exact Google Place ID.",
-        "This is saved research, not a live property feed. See source URLs, research dates and conflict notes.",
-        "Prices are advertised, not confirmed offers. Ranges and phase scope appear in Price / Configuration Notes.",
-        "Likely non-project listings are retained and flagged for review, not treated as housing projects.",
-        "Cat ID belongs to the property data provider; it is not a Google Place ID.",
-        "Area Basis should specify carpet, built-up or saleable when the source identifies it.",
-        "Last Updated Date means the source's project update date; it is not the retrieval date.",
-        "Retrieved at records this search, not when a project was added or launched.",
-        "Verify project status, developer, prices and dates using project-specific sources.",
-        "Review storage/export restrictions before retaining Google content:",
-        "https://developers.google.com/maps/documentation/places/web-service/policies",
+        'Sources restricted to Magicbricks and 99acres. No Google or saved third-party research is used.',
+        f'Search city: {city}. First directory page per portal, up to 30 project pages per portal; not exhaustive.',
+        'Source URLs identify records. Google Place ID and Cat ID are not invented.',
+        'Missing numeric details stay blank. Automatic Research Status explains extraction limits.',
+        'Portal overview values may describe different project phases; totals need verification.',
+        'Unit records require supported structured floor plans. No prices, banks or availability are inferred.',
+        *source_reports,
     ]:
         notes.append([line])
     notes.column_dimensions["A"].width = 115
@@ -240,7 +193,7 @@ def main(city="Mumbai", interactive=True):
     print(f"Saved {len(candidates)} candidate places to {target}")
     if not candidates:
         print("No matches returned. The workbook contains headers and notes only.")
-    return {"file": target.name, "count": len(candidates),
+    return {"sources": source_reports, "file": target.name, "count": len(candidates),
             "researched": sum(bool(details.get(pid, {}).get("fields")) for pid in candidates),
             "units": units.max_row - 1,
             "preview": [{"name": e["place"].get("displayName", {}).get("text", ""),
@@ -251,6 +204,8 @@ def main(city="Mumbai", interactive=True):
 if __name__ == "__main__":
     try:
         main()
+    except ValueError as exc:
+        raise SystemExit(str(exc))
     except requests.RequestException:
         raise SystemExit("Network request failed. Check your connection and retry.")
     except OSError:
